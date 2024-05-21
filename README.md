@@ -1,8 +1,7 @@
 # KFI-File2Str
 
 There are some differences to be noted: class File which, to some extend, plays
-the rôle of the class Path from the java.nio.file package. Notice also, that Buffere-
-dReader must be created in two steps: first we create ‘raw’ byte stream of type, e.g.,
+the role of the class `Path` from the java.nio.file package. Notice also, that BufferedReader must be created in two steps: first we create ‘raw’ byte stream of type, e.g.,
 FileInputStream, then we pass it to the constructor of InputStreamReader with, as
 the second argument, the required encoding, and then this to the constructor of the
 BufferedReader. In the example above there are only two steps: to the constructor
